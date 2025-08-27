@@ -1,12 +1,9 @@
 # Bay Area Wages vs Rent (2015=100)
 
-[![Open In Colab](https://colab.research.googleusercontent.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR-USERNAME>/<YOUR-REPO>/blob/main/analysis_portfolio.ipynb)
+[![Open In Colab](https://colab.research.googleusercontent.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Darnellious1/bay-area-wages-vs-rent/blob/main/analysis_portfolio.ipynb)
 
-**Headline (2015 → [latest date])**
-- **Wages:** [W]%
-- **Rent CPI:** [R]%
-- **Real wages:** [RW]%
-- **Wage-to-rent index:** [WR]%
+**Summary**  
+Reproducible analysis of San Francisco–Oakland–Hayward wages vs. rent CPI, indexed to 2015=100. The project aligns QCEW wages with local CPI series, builds real wages and a wage-to-rent index, and produces clear figures plus a one-page brief.
 
 **One-page brief:** [artifacts/brief.pdf](artifacts/brief.pdf)
 
@@ -19,11 +16,6 @@
 - Notebook: [analysis_portfolio.ipynb](analysis_portfolio.ipynb)
 
 ## Methods (short)
-- Wages: BLS QCEW (FRED series `ENUC418640510SA`).  
-- Prices: CPI-U All Items (`CUUSA422SA0`) & Rent of Primary Residence (`CUUSA422SEHA`).  
-- Monthly CPI averaged to **quarters**; wages are quarterly. Both indexed to **2015-01-01 = 100**.  
-- Affordability measures: **real wages** (deflated by local CPI) and **wage-to-rent ratio**.
-
-## Notes
-- CPI-Rent is a renters’ price index (not listing medians).  
-- QCEW wages can spike with bonuses/stock. Results are descriptive, not causal.
+- **Wages:** BLS QCEW (FRED `ENUC418640510SA`)  
+- **Prices:** CPI-U All Items (FRED `CUUSA422SA0`) and Rent of Primary Residence (FRED `CUUSA422SEHA`)  
+- Monthly CPI averaged to **quarters**; both series indexed to
