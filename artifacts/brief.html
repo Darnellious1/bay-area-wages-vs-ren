@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+      margin:1in;font-size:12pt;line-height:1.4;}
+h1{font-size:20pt;margin:0 0 .15in 0;}
+h2{font-size:14pt;margin:.3in 0 .1in 0;}
+</style>
+</head><body><h1>Bay Area Wages vs. Rent — Summary</h1>
+<p><strong>Question.</strong> Did wages keep up with rent in the San Francisco–Oakland–Hayward metro, and what happened to affordability?</p>
+<p><strong>Data.</strong> BLS/QCEW wages (FRED ENUC418640510SA); CPI-U All Items (FRED CUUSA422SA0); CPI-U Rent of Primary Residence (FRED CUUSA422SEHA). Monthly CPI averaged to quarters; wages are quarterly; base index = 2015-01-01.</p>
+<p><strong>Method.</strong> Align to the same quarters; compute indices (2015=100), real wages (deflated by local CPI), wage-to-rent ratio, YoY, and CAGRs. Simple Δlog regression of wages on rent with robust SE.</p>
+<p><strong>Headline findings (1990-03-31 → 2024-09-30).</strong>
+- Wages: <strong>395.1%</strong>
+- Rent CPI: <strong>242.0%</strong>
+- Real wages: <strong>84.6%</strong>
+- Wage-to-rent ratio: <strong>44.8%</strong></p>
+<p><strong>Interpretation.</strong> If wages rose faster than rent CPI, affordability pressures eased; if rent CPI outpaced wages, they tightened. The wage-to-rent index summarizes affordability in one line (↑ is better).</p>
+<p><strong>Limits.</strong> CPI-Rent is a price index for renters (not listing medians like Zillow ZORI). QCEW wages include bonuses/stock; Bay Area quarters can spike. Descriptive analysis; correlation ≠ causation.</p>
+<p><strong>Figures.</strong> See <code>figures/sf_wage_vs_rent.png</code>, <code>figures/sf_real_wage_vs_rent.png</code>, <code>figures/sf_yoy.png</code>.</p></body></html>
