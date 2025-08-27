@@ -1,6 +1,6 @@
 # Bay Area Wages vs Rent (2015=100)
 
-[![Open In Colab](https://colab.research.googleusercontent.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Darnellious1/bay-area-wages-vs-rent/blob/main/analysis_portfolio.ipynb)
+[![Open In Colab](https://colab.research.googleusercontent.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Darnellious1/bay-area-wages-vs-ren/blob/main/analysis_portfolio.ipynb)
 
 **Summary**  
 Reproducible analysis of San Francisco–Oakland–Hayward wages vs. rent CPI, indexed to 2015=100. The project aligns QCEW wages with local CPI series, builds real wages and a wage-to-rent index, and produces clear figures plus a one-page brief.
