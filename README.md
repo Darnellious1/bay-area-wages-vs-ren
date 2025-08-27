@@ -5,6 +5,8 @@
 **Summary**  
 Reproducible analysis of San Francisco–Oakland–Hayward wages vs. rent CPI, indexed to 2015=100. The project aligns QCEW wages with local CPI series, builds real wages and a wage-to-rent index, and produces clear figures plus a one-page brief.
 
+Bottom line: Since 2015, Bay Area wages rose ~395.1% while the rent price index rose ~242.0%. Real wages changed ~84.6%, and the wage-to-rent index ~44.8% (Q3 2024).
+
 **One-page brief:** [artifacts/brief.pdf](artifacts/brief.pdf)
 
 ## Figures
